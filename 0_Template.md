@@ -4,6 +4,16 @@
 
 This document is the template starter for all Treetop Lessons. Below, the structure, format, and syntactic conventions of a typical coding lesson will be covered. In addition, notes will be provided to you, the instructor, on how to best educate your student.
 
+## Conventions
+
+All of the lesson pages will follow similar syntactic conventions on what to say to the student and how to foster more discussion.
+
+Most lessons will start off with an extended description that relates to the topics of the lessons. An example of a description is like below:
+
+_Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Today, we will utilize Strings and their assosciated methods to create our own version of Lorem Ipsum._
+
+It is reccomended that you do more than recite this to students. Explain to students the preliminary information of the lesson so they have a better grasp on how content fits into programming overall. Remember, it's more about getting the students to understand the story and practical application rather than covering a list of content.
+
 ## Philosophy
 
 All of the content of Treetop Learning lessons is backed by modern paedological practices and has been carefully reviewed by peers.
