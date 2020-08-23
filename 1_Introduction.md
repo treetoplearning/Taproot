@@ -106,5 +106,9 @@ Now, let's recap on what we learned.
 
 > **Recap:** Head back to the lesson objectives and ask your student about each one. Spend time answering their questions and giving them feedback. You want to make sure they understand these core components before ending the lesson.
 
-Next week, we will learn about <ins> **variables** </ins>, which are a way to store information in our programs so that we can reference it later.
+> **Discuss:** Let the student take control and ask any questions about any of the content that you covered.
+
+Next week, we will learn about <ins> **variables**</ins>, which are a way to store information in our programs so that we can reference it later. We'll also learn more about strings, which are a type of variable that are composed of characters like "Hello World."
+
+
 
