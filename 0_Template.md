@@ -20,9 +20,9 @@ Treetop Learning lessons follow the [Backwards Design](https://www.modelteaching
 
 Above all, the Backwards Design philosophy prioritizes that instructors teach with the **desired learning outcome in mind**, rather than attempting to simply cover a wide range of concepts. Instruct with the intention of the student being able to perform a skill at the end rather than attempting to cover a laundry list of content.
 
-## Philosophy
+## Introduction
 
-Always be sure to greet the student before beginning content.
+The introduction section will always include housekeeping information as well as basic topics to help make conversation with your student. This portion will always be addressed to the instructor and may often include points of emphasis for the lesson.
 
 ## **Phase One: Objectives**
 
@@ -58,7 +58,11 @@ There are several basic practice activities. They are as follows:
 
 > **Tip:** It's most beneficial if the student works out the solution on their own before you provide the solution. Backwards Design principles only apply to the overall lesson goals, not to individual practice problems.
 
-### **Complete the function**
+> **Tip:** As the instructor you should copy and paste the boilerplate of each excercise into the shared IDE so that the student is able to follow along easily as you explain. Make sure to not delete older portions of the lesson that you are on as your progress.
+
+---
+### **Excercise 1: Complete the Function**
+---
 
 ```python
 # Complete the following function, which prints 'Hello World' when called.
@@ -76,8 +80,11 @@ print('Hello World')
 ```
 
 </details>
+<br>
 
-### **Write the function**
+---
+### ** Write the Function**
+---
 
 ```python
 # Define a function that takes in a parameter input, doubles that parameter, and then returns the result
@@ -94,6 +101,7 @@ func double(input):
 ```
 
 </details>
+<br>
 
 ### **Trace the code**
 
@@ -113,6 +121,7 @@ ZeroDivisionError: integer division or modulo by zero
 ```
 
 </details>
+<br>
 
 > **Note:** All content in the activities section is written from the perspective of the instructor to the student. This was done intentionally to make instruction easier. Instead of reciting the content of each lesson verbatim, feel free to take pauses and be open for any questions that your student might have.
 

@@ -1,7 +1,5 @@
 # **Lesson 1 - Introduction to Python**
 
-Introdcution What is Coding? What is Python? Spacing. Print Statements.
-
 ## Description
 
 The following lesson is an introduction to coding, which will voer basic  Python syntax as well as print statments, and a "Hello World."
@@ -57,7 +55,9 @@ Let's get a better grasp of programming and write our first program!
 
  Let's start with our first coding excercise.
 
+---
 ### **Excercise 1: Hello World**
+---
 
 After we do a little bit of reading during each lesson, we are going to practice with some excercises. Our very first excercise together is a time honored tradition called "Hello World."
 
@@ -90,6 +90,7 @@ print('Hello World')
 
 
 </details>
+<br>
 
 Now that you have written your first program let's compile and run your program. Head down to the terminal now. To compile and run our Python program, we are going to write the following in our terminal:
 
