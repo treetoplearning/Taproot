@@ -58,7 +58,7 @@ Now let's get some practice.
 ### **Excercise 1: Printing Variables**
 ---
 
-We've learned that all it takes is an identifier, or the name that we use to refer to the variable, the assignmzent operator, and a value for the variable.
+We've learned that all it takes is an identifier, or the name that we use to refer to the variable, the assignment operator, and a value for the variable.
 
 We can even combine some of the knowledge that we learned last week with our *print* statement. To print variables just put their names in a print statement. To print multiple variables, just put a comma between the variable names.
 
@@ -108,7 +108,6 @@ When dealing with assignments like these, an easy way to think of the statement 
 Python is special in the fact that you can change the value of almost any variable to any type at anytime (we'll learn about some specific off-cases next time).
 
 - _Why do you think could be some consequences of being able to change our variable types?_ Due to the fact we can change our variable names, our programs are much more susceptible to bugs. Imagine we were writing a program to bake a cake, and we had variables called *eggs* and *chocolate_chips* to keep track of our recipe. If one of these variables types were changes, say the value of *eggs* was changed to True, adding these variables to find the total number of ingredients could lead to some unintended consequences, and in larger programs this problem can be even worse. In Python, we need to make sure we are certain when we change variable values or types, in order to avoid bugs in our code.
-
 ---
 
 We haven't touched much on booleans, so let's learn a little more about them. While we can print strings and add integers, we haven't learned much about what we can do with booleans. Most values in Python have an inherent False or True value. You can compare values and see if their True or False values are the same with the "==" operator which is one of the **<ins>comparison operators</ins>**.

@@ -79,6 +79,7 @@ print('Hello World')
 ```
 
 </details>
+<br>
 
 ---
 ### **Excercise 2: Write the function**
