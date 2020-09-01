@@ -122,7 +122,7 @@ Here's an example of a float:
 # Float example
 
 a = 6.4
-print(c)
+print(a)
 ```
 
 To be clear which division we are talking about, we programmers use one slash */* for float division and two slashes *//* for integer division.
@@ -291,7 +291,7 @@ The second type of error is a **<ins>runtime error</ins>**. This is when there w
 print(3 % 0) # outputs ZeroDivisionError: integer division or modulo by zero
 ```
 
-The last type of error is a logic error. This is when your code successfuly compiles, and successfully runs, but doesn't actually do what you intended it to do. These are often the hardest errors to catch and will show up later when we get to more complicated Python. For now though, here is an example of a logic error.
+The last type of error is a logic error. This is when your code successfully compiles, and successfully runs, but doesn't actually do what you intended it to do. These are often the hardest errors to catch and will show up later when we get to more complicated Python. For now though, here is an example of a logic error.
 
 ```python
 # Logic error example
@@ -309,25 +309,38 @@ print(3 + 5 * 2)  # incorrect order of operations
 Now that we know about the types of errors, as well as different errors that may arise in our code, let's practice reading some code closely and looking for errors.
 
 ```python
-# Read the following code and mark any lines that you think contain an error with a comment saying "error" as well as the type of error
+# Read the following code and mark any lines that you think contain an error with a comment saying type error - and then the specific error if applicable.
 
 a = 17
-b = 7 % 4
-c = 0.5
+b = 7 % 7
+c = a // b
 
+# write a program that prints "three" four times
+print("three", "three", "three")
+
+print("two")
+print("plus")
+print("two)
+print("makes")
+print("four")
 ```
 
 <details>
 <summary> Solution</summary>
 
 ```python
-print('Hello World')
+# from top to bottom
+c = a // b # runtime error - ZeroDivision
+
+print("three", "three", "three") # logic error
+
+print("two") # syntax error - missing parenthesis
+
 ```
 
 </details>
 
 ---
-
 
 ## **Phase Three: Assessments**
 
@@ -337,4 +350,4 @@ Now, let's recap on what we learned.
 
 > **Discuss:** Let the student take control and ask any questions about any of the content that you covered.
 
-Next week we are going to learn more about errors that can arise in our code, and we are also going to cover booleans more in depth, and the kind of logic that we can perform with them coincidentally called boolean logic.
+Next week we are going to learn more about errors that can arise in our code. We are also going to cover booleans more in depth, and the kind of logic that we can perform with them coincidentally called boolean logic.
