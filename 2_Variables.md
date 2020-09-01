@@ -1,7 +1,5 @@
 # **Lesson 2 - Variables**
 
-Variables. Data Types. Strings. Assignment. Equality. Combining different types of variables.
-
 ## Description
 
 The following lesson introduces the concepts of variables, data types, and basic variable comparison.
@@ -60,7 +58,7 @@ Now let's get some practice.
 ### **Excercise 1: Printing Variables**
 ---
 
-We've learned that all it takes is an identifier, or the name that we use to refer to the variable, the assignment operator, and a value for the variable.
+We've learned that all it takes is an identifier, or the name that we use to refer to the variable, the assignmzent operator, and a value for the variable.
 
 We can even combine some of the knowledge that we learned last week with our *print* statement. To print variables just put their names in a print statement. To print multiple variables, just put a comma between the variable names.
 
@@ -85,7 +83,7 @@ soccer_number = 7
 
 print('My name is', name, 'I am', age, 'years old. My favorite color is', favorite_color,'and it is', is_soccer_player, 'that I am a soccer player. My favorite number is', soccer_number,'.')
 
-# My name is Jessica I am 14 years old. My favorite color is purple and it is True that I am a soccer player. My favorite number is 7. 
+# My name is Jessica I am 14 years old. My favorite color is purple and it is True that I am a soccer player. My favorite number is 7.
 ```
 
 </details>
@@ -109,7 +107,7 @@ When dealing with assignments like these, an easy way to think of the statement 
 
 Python is special in the fact that you can change the value of almost any variable to any type at anytime (we'll learn about some specific off-cases next time).
 
-- _Why do you think could be some consequences of being able to change our variable types?_ Due to the fact we can change our variable names, our programs are much more susceptible to bugs. Imagine we were writing a program to bake a cake, and we had variables called *eggs* and *choccolate_chips* to keep track of our recipe. If one of these variables types were changes, say the value of *eggs* was changed to True, adding these variables to find the total number of ingredients could lead to some unintended consequences, and in larger programs this problem can be even worse. In Python, we need to make sure we are certain when we change variable values or types, in order to avoid bugs in our code.
+- _Why do you think could be some consequences of being able to change our variable types?_ Due to the fact we can change our variable names, our programs are much more susceptible to bugs. Imagine we were writing a program to bake a cake, and we had variables called *eggs* and *chocolate_chips* to keep track of our recipe. If one of these variables types were changes, say the value of *eggs* was changed to True, adding these variables to find the total number of ingredients could lead to some unintended consequences, and in larger programs this problem can be even worse. In Python, we need to make sure we are certain when we change variable values or types, in order to avoid bugs in our code.
 
 ---
 
@@ -133,7 +131,17 @@ The "==" operator can also be used to check other booleans like if strings equal
 
 Finally, let's cover some ways we can combine the variables that we have learned about.
 
-So far with integers we know that we can add, but that isn't the only way we can combine different variables. One very important way that we can combine strings is through a process of **<ins>string concatenation</ins>**. This is when we join two strings end-to-end to stick them together to become one string.
+So far with integers we know that we can add different values together even if we use the identifier to combine them, like the following. 
+
+```python
+# Combinding variables using their identifiers (names)
+
+a = 3
+b = 4
+c = a + b
+```
+
+But that isn't the only way we can combine different variables. One very important way that we can combine strings is through a process of **<ins>string concatenation</ins>**. This is when we join two strings end-to-end to stick them together to become one string.
 
 Let's get some practice.
 

@@ -61,9 +61,8 @@ There are several basic practice activities. They are as follows:
 > **Tip:** As the instructor you should copy and paste the boilerplate of each excercise into the shared IDE so that the student is able to follow along easily as you explain. Make sure to not delete older portions of the lesson that you are on as your progress.
 
 ---
-### **Excercise 1: Complete the Function**
+### **Excercise 1: Complete the function**
 ---
-
 ```python
 # Complete the following function, which prints 'Hello World' when called.
 
@@ -80,10 +79,9 @@ print('Hello World')
 ```
 
 </details>
-<br>
 
 ---
-### ** Write the Function**
+### **Excercise 2: Write the function**
 ---
 
 ```python
