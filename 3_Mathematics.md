@@ -108,13 +108,9 @@ c = a / b
 print(c)
 ```
 
-Be careful. Remember we are dividing integers, so theoretically we should have a 
-
-We've learned that all it takes is an identifier, or the name that we use to refer to the variable, the assignmzent operator, and a value for the variable.
-
 - _Be careful, remember we are dividing integers. So theoretically, our result should also be an integer right?_ This brings up the contrast between integer division where we are only allowed to have whole number results, and division with a decimal point like 3/2 = 1.5/
   
-To distinguish between these two cases of whether to add a decimal point or not we are going to introduce a new type called a **<ins>float</ins>**. In Python a float is like an integer, except that a float can have a decimal point and decimal value, whereas an integer must be a whole number.
+To distinguish between these two cases of whether to add a decimal point or not we are going to introduce a new date type called a **<ins>float</ins>**. In Python a float is like an integer, except that a float can have a decimal point and decimal value, whereas an integer must be a whole number with no decimals.
 
 Here's an example of a float:
 
@@ -330,6 +326,7 @@ print("four")
 
 ```python
 # from top to bottom
+
 c = a // b # runtime error - ZeroDivision
 
 print("three", "three", "three") # logic error

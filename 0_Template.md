@@ -30,23 +30,23 @@ For practice purposes, in this lesson the instructor will play the role of both 
 
 > **Tip:** It's reccomended that you check through each objective as needed to ensure all lesson goals are met.
 
-- [ ] The instructor can name all three phases of Backward Design.
+- [ ] The instructor understands the basic structure of a lesson and the purpose of each phase.
 
-- [ ] The instructor understands the differences between all three phases of Backward Design.
+- [ ] The instructor understands and is able to recognize the syntactical features of a lesson specification including tips, questions, and excercises.
 
-- [ ] The instructor is aware that all instruction is to be done with the intention to build a skill of the student.
+- [ ] The instructor is aware that all instruction is to be done with the intention to build a skill of the student, not to cover an amount of content within a time period.
 
-As the instructor, it is your duty to ensure that the student is able to meet each of these standards at the end of their lesson. Often times, Phase One will include extended descriptions of content to be taught. While all information is likely to be used during the lesson by the instructor, it is up the the instructor's discretion to include and exclude necessary pieces of content. Remember, the goal of Backwards Design is not to cover a wide range of curriculum at a surface level, but rather, coach your student to a level where they will be able to demonstrate content mastery through an interactive assessment.
+As the instructor, it is your duty to ensure that the student is able to meet each of these standards at the end of their lesson. While all information is likely to be covered during the lesson by the instructor, it is up the the instructor's discretion to include and exclude necessary pieces of content. Remember, the goal of Backwards Design is not to cover a wide range of curriculum at a surface level, but rather, coach your student to a level where they will be able to demonstrate content mastery through an interactive assessment.
 
 ## **Phase Two: Activities**
 
 Most lessons will start off with an extended description that relates to the topics of the lessons. An example of a description is like below:
 
-> **Tip:** In the *Activities* section, it's often a good idea to pause often and after each paragraph to ask students if they have input or any questions of their own.
+> **Tip:** In the *Activities* section, it's often a good idea to pause every so often to either ask students if they have input or any questions of their own.
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Today, we will utilize Strings and their assosciated methods to create our own version of Lorem Ipsum.
 
-- *Woven in between the content will be challenge questions, and focus points for your student. For example, why do you think that Lorem Ipsum is so widely used today?*
+- *Woven in between the content will be challenge questions, and focus points for your student. For example, why do you think that Lorem Ipsum is so widely used today?* The answer to the question will always appear immeadiately after the question as a reference to help instruct your student. Lorem ipsum has existed for hundreds of years and has served as a way to fill pages with dummy text in a way that does not detract from the page design.
 
 Let the activity be a conversation between you and your student. You want to be answering your student's questions and providing clarity as much as possible.
 
@@ -58,7 +58,7 @@ There are several basic practice activities. They are as follows:
 
 > **Tip:** It's most beneficial if the student works out the solution on their own before you provide the solution. Backwards Design principles only apply to the overall lesson goals, not to individual practice problems.
 
-> **Tip:** As the instructor you should copy and paste the boilerplate of each excercise into the shared IDE so that the student is able to follow along easily as you explain. Make sure to not delete older portions of the lesson that you are on as your progress.
+> **Tip:** As the instructor you should copy and paste the provided examples or boilerplate of each excercise into the shared IDE so that the student is able to follow along easily as you explain. Make sure to not delete older portions of the lesson that you are on as your progress.
 
 ---
 ### **Excercise 1: Complete the function**
