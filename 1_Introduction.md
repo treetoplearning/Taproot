@@ -85,7 +85,6 @@ Now that we know about the print statement we are ready to try our excercise.
 ```python
 print('Hello World')
 ```
-
 </details>
 
 

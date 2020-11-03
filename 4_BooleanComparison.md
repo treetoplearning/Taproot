@@ -1,8 +1,13 @@
-# **Lesson 3 - Mathematics**
+# **Lesson 4 - Boolean Comparison**
+
+define bool
+greater than/ less than
+challenging True/False
+
 
 ## Description
 
-The following lesson continues the instruction on Integers, covers fundamental mathematical procedures in coding, and introduces programmatic errors to the student.
+The following lesson continues the instruction on Booleans and focuses on building logic fundamentals before the introduction of control flow.
 
 ## Introduction
 
@@ -10,28 +15,33 @@ After you welcome the student back, you should spend a few minutes discussing an
 
 ## **Phase One: Objectives**
 
-- [ ] The student understands what a comment is and how comments will not be compiled for the computer to read.
-
-- [ ] The student understands that there are fundamental mathematical procedures that can be performed on integers. These procedures include addition, subtraction, multiplication, division (both floor and integer) and modulus.
-
-- [ ] The student understands that mathematical operations in Python follow PEMDAS.
-
-- [ ] The student understands the basic premise of what a programmatic error is and generally how to avoid them by following proper conventions.
+- [ ] 
 
 ## **Phase Two: Activities**
 
-Last week we covered what variables are, as well as how they relate to their data types. We also covered how to compare variables on a basic level through the use of the equality operator. This week we want to dive further into Integers, specifically on the types of operations we can perform on integers to represent mathematical equations. Though, we'll start with an important lesson for all coding languages.
+So last week we talked about a lot of the mathematical operations that we can do as programmers. Though, a lot of of programs we wrote only had to do with numbers and basic operations. Though as programmers, we aren't always directly working with numbers. Sometimes we want to find a yes or a no, or more specifically, a True or a False value for a question that we might have. So, today we are going to learn about a tool to do just that called booleans. **<ins>Booleans</ins>** are a data type just like integers for whole numbers and floats for decimal numbers, but instead of dealing with numbers, booleans, or bools as they're called in Python, hold either the *True* or *False* value.
 
-Before we get started with the bulk of today's lesson, it's important cover one essential concept to all of programming. This concept is the comment. Comments are used to provide easy, human-readable descriptions to your code, so someone else is easily able to understand what each part of your code does. Comments have no effect on the output of your code, and are ignored when it is time to compile your code into machine language. So, you can put anything in comments without the fear of causing issues in your code. Here's a quick example:
+Some examples of booleans are light switches, which can be on, also known as True, or off, also known as False. Another example is if it is raining or not.
+
+- _What are some other examples of boolean values that you see in your life?_ 
+
+The great things about variables like booleans is that they are all created the same way. Simply give them a name and a value and you're all set! Let's take a look at some examples.
 
 ```python
-# Program to record hot dog order
+# Creating boolean variables
 
-pickles = True
-tomatoes = False
-onions = True
-ketchup = True
+weekday = True
+weekend = False
+is_hot = True
 ```
+
+While assigning a True or False value to a variable is fun and all, where we can really exploit the power of boolean is with logical operations. 
+
+
+
+
+
+
 
 Oftentimes if a program is extremely simple like the one above, we won't include comments, but we did anyways just to get some practice. Comments are made with the pound symbol, otherwise known as a "hashtag", and once you include that symbol the rest of the line will be ignored by the compiler.
 
@@ -108,7 +118,7 @@ c = a / b
 print(c)
 ```
 
-Be careful. Remember we are dividing integers, so theoretically we should have an integer as a result.
+Be careful. Remember we are dividing integers, so theoretically we should have a 
 
 We've learned that all it takes is an identifier, or the name that we use to refer to the variable, the assignmzent operator, and a value for the variable.
 
@@ -320,7 +330,7 @@ print("three", "three", "three")
 
 print("two")
 print("plus")
-print("two"
+print("two)
 print("makes")
 print("four")
 ```
@@ -334,7 +344,7 @@ c = a // b # runtime error - ZeroDivision
 
 print("three", "three", "three") # logic error
 
-print("two") # syntax error - missing a parenthesis
+print("two") # syntax error - missing parenthesis
 
 ```
 
