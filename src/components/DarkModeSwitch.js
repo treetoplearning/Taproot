@@ -39,7 +39,7 @@ export function DarkModeSwitch() {
         <span className="sr-only">Enable dark mode</span>
         <motion.span
           layout
-          className="bg-white rounded-full w-8 h-8"
+          className="w-8 h-8 bg-white rounded-full"
           style={{ boxShadow: '0 2px 5px rgba(0, 0, 0, 0.05), 0 1px 1px rgba(0, 0, 0, 0.1)' }}
         />
       </Switch>

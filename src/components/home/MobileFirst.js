@@ -190,21 +190,21 @@ function BrowserWindow({ size, onChange, height = 385 }) {
       >
         <div className="rounded-xl ring-1 ring-black ring-opacity-5">
           <div
-            className="py-2 grid items-center gap-6 px-4 rounded-tr-xl sm:rounded-t-xl bg-gradient-to-b from-gray-50 to-gray-100"
+            className="grid items-center gap-6 px-4 py-2 rounded-tr-xl sm:rounded-t-xl bg-gradient-to-b from-gray-50 to-gray-100"
             style={{ gridTemplateColumns: '1fr minmax(min-content, 640px) 1fr' }}
           >
             <div className="flex space-x-1.5">
-              <div className="w-3 h-3 rounded-full bg-gray-300" />
-              <div className="w-3 h-3 rounded-full bg-gray-300" />
-              <div className="w-3 h-3 rounded-full bg-gray-300" />
+              <div className="w-3 h-3 bg-gray-300 rounded-full" />
+              <div className="w-3 h-3 bg-gray-300 rounded-full" />
+              <div className="w-3 h-3 bg-gray-300 rounded-full" />
             </div>
-            <div className="border border-black border-opacity-5 rounded-md overflow-hidden shadow-sm">
+            <div className="overflow-hidden border border-black rounded-md shadow-sm border-opacity-5">
               <div className="bg-gradient-to-b from-white to-gray-50 text-sm py-1.5 text-center">
                 workcation.com
               </div>
             </div>
           </div>
-          <div className="relative bg-white border-t border-gray-200 rounded-b-xl pb-8 -mb-8">
+          <div className="relative pb-8 -mb-8 bg-white border-t border-gray-200 rounded-b-xl">
             <div
               className="overflow-auto"
               style={{ height }}
@@ -234,7 +234,7 @@ function BrowserWindow({ size, onChange, height = 385 }) {
           dragMomentum={false}
           dragElastic={0.08}
           dragConstraints={constraintsRef}
-          className="absolute z-10 top-1/2 right-0 bg-indigo-900 rounded-full border-4 border-white shadow-lg hidden md:flex items-center justify-center pointer-events-auto cursor-grab active:cursor-grabbing focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-violet-500 focus-visible:ring-white"
+          className="absolute right-0 z-10 items-center justify-center hidden bg-indigo-900 border-4 border-white rounded-full shadow-lg pointer-events-auto top-1/2 md:flex cursor-grab active:cursor-grabbing focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-violet-500 focus-visible:ring-white"
           style={{
             x,
             width: `${HANDLE_RADIUS * 2}rem`,
@@ -264,11 +264,11 @@ export function MobileFirst() {
 
   return (
     <section id="mobile-first">
-      <div className="px-4 sm:px-6 md:px-8 mb-10 sm:mb-16 md:mb-20">
+      <div className="px-4 mb-10 sm:px-6 md:px-8 sm:mb-16 md:mb-20">
         <IconContainer className={`${gradients.violet[0]} mb-8`}>
           <Icon />
         </IconContainer>
-        <Caption as="h2" className="text-violet-600 mb-3">
+        <Caption as="h2" className="mb-3 text-violet-600">
           Mobile-first
         </Caption>
         <BigText className="mb-8">Responsive everything.</BigText>
@@ -282,16 +282,13 @@ export function MobileFirst() {
             at a specific breakpoint.
           </p>
         </Paragraph>
-        <Link href="/docs/responsive-design" className="text-violet-600 hover:text-violet-800">
-          Learn more -&gt;
-        </Link>
       </div>
       <GradientLockup
         color="violet"
         rotate={2}
         left={
           <>
-            <div className="pr-8 sm:px-6 md:px-2 lg:px-0 max-w-screen-sm lg:max-w-3xl xl:max-w-5xl mx-auto">
+            <div className="max-w-screen-sm pr-8 mx-auto sm:px-6 md:px-2 lg:px-0 lg:max-w-3xl xl:max-w-5xl">
               <BrowserWindow size={size} onChange={setSize} />
             </div>
             <CodeWindow className={`bg-indigo-500 ${styles.code}`}>

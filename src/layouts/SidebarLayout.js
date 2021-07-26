@@ -14,7 +14,7 @@ const NavItem = forwardRef(({ href, children, isActive, isPublished, fallbackHre
       <Link href={isPublished ? href : fallbackHref}>
         <a
           className={clsx('px-3 py-2 transition-colors duration-200 relative block', {
-            'text-cyan-700': isActive,
+            'text-[#48BB78]': isActive,
             'hover:text-gray-900 text-gray-500': !isActive && isPublished,
             'text-gray-400': !isActive && !isPublished,
           })}

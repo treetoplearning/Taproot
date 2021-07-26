@@ -173,7 +173,7 @@ function BannerMarkRight(props) {
 export function Header({ navIsOpen, onNavToggle }) {
   return (
     <>
-      <div className="sticky top-0 z-40 flex flex-none w-full mx-auto bg-white lg:z-50 max-w-8xl">
+      <div className="sticky top-0 z-40 flex flex-none w-full mx-auto font-mono bg-white lg:z-50 max-w-8xl">
         <div className="flex items-center flex-none pl-4 border-b border-gray-200 sm:pl-6 xl:pl-8 lg:border-b-0 lg:w-60 xl:w-72">
           <Link href="/">
             <a
@@ -184,7 +184,7 @@ export function Header({ navIsOpen, onNavToggle }) {
               }}
             >
               <span className="sr-only">Tailwind CSS home page</span>
-              <Logo className="w-auto h-6" />
+              <p className="w-auto text-3xl font-semibold text-green-600"> Treedocs </p>
             </a>
           </Link>
         </div>

@@ -84,7 +84,7 @@ module.exports = {
               backgroundColor: theme('colors.gray.300'),
             },
             a: {
-              color: theme('colors.cyan.700'),
+              color: '#38A169',
               fontWeight: theme('fontWeight.medium'),
               textDecoration: 'none',
               boxShadow: theme('boxShadow.link'),
@@ -106,10 +106,10 @@ module.exports = {
               color: theme('colors.violet.600'),
             },
             'code::before': {
-              // content: 'none',
+              content: '"" !important',
             },
             'code::after': {
-              // content: 'none',
+              content: '"" !important',
             },
             pre: {
               backgroundColor: null,

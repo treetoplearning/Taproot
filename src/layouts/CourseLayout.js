@@ -14,7 +14,6 @@ const nav = {
   'Getting Up and Running': [
     pages['setting-up-tailwind-and-postcss'],
     pages['the-utility-first-workflow'],
-    pages['responsive-design'],
     pages['hover-focus-and-active-styles'],
     pages['composing-utilities-with-apply'],
     pages['extracting-reusable-components'],
