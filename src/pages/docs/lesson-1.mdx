@@ -2,64 +2,71 @@
 title: Lesson 1
 description: Introduction to Python
 ---
+import { CheckboxList } from '@/components/CheckboxList'
 
 ## Description
 
-The following lesson is an introduction to coding, which will voer basic  Python syntax as well as print statments, and a "Hello World."
+The following lesson is an introduction to coding, which will cover basic Python syntax as well as print statments and a "Hello World."
 
 ## Introduction
 
-As this is the first meeting, it is important that you introduce yourself to the student.
+As this is the first meeting, it's important that you introduce yourself to the student.
 
-Begin by introducing yourself with your name, school, major, and some interests. Then get to know your student. Ask them about their school subjects and personal interests.
+Begin by introducing yourself with your name, school, major, and some interests. Then get to know your student. Ask them 
+about their school subjects and personal interests.
 
 After you have gotten to know your student a little bit, tell them about Treetop Learning and what their learning plan will be over the next three weeks. Explain to them how weekly lessons will work, and about the extra practice they will have access to when not in lesson.
 
-## **Phase One: Objectives**
+## Phase One: Objectives
 
-- [ ] The student has a basic understanding of what coding is, and how coding is used to communicate in a language that computers understand.
+For today's lesson we are going to learn about some of the basic fundamentals of coding, so that we can get better sense of what's to come in the next couple of weeks. Sound good? Our goals for this lesson are:
 
-- [ ] The student understands and is able to explain the process of coding, compiling and executing a program.
+<CheckboxList lines={["The student has a basic understanding of what coding is, and how coding is used to communicate in a language that computers understand.", "The student understands and is able to explain the process of coding, compiling and executing a program.", "The student understands that Python is a coding language, and is the principle language that they will be learning in over the next few weeks.", "The student understands that in Python spacing is important, and some programs won't work if given the incorrect spacing."]}/> 
+ 
 
-- [ ] The student understands that Python is a coding language, and is the principle language that they will be learning in over the next few weeks.
+- ***Tip:*** *Make sure you go through each of these objectives slowly. It is very important that both you and your student understand the objective lesson.*
 
-- [ ] The student understands that in Python spacing is important, and some programs won't work if given the incorrect spacing.
+## Phase Two: Excercises
 
-
-## **Phase Two: Activities**
+How about we start with a little bit of history?
 
 Over the last several decades, electronics and the Internet have exploded. Nowadays it seems that every aspect of our lives can be controlled by a computer. Computers have allowed us creativity and freedom to create products for causes that we believe in. The expansion of computers over the last several decades has led to explosive development in healthcare, security and edcuation.
 
  - *How do you think people are able to communicate with these machines?*
 
-To communicate with these computers, we humans use coding to talk to computers. **<ins>Coding</ins> is the process of giving instructions to a computer so that the computer can perform a specific task.** In the old days, humans had to use computers that were large and filled up entire rooms, but today, we don't have to do that. Instead, we have very powerful software that is able to run code, or instructions, that we write very quickly. Today, there are many different programming langauges that are suited for many different types of jobs. 
+ - ***Tip:*** *Be sure to prompt the student with follow-up questions to advance the conversation. Remember, this is a sharing of ideas. Both parties should be asking questions and thinking critically about the content at hand.*
+
+To communicate with these computers, we humans use coding to talk to computers. [Coding](#vocabulary) is the process of giving instructions to a computer so that the computer can perform a specific task. In the old days, humans had to use computers that were large and filled up entire rooms, but today, we don't have to do that. Instead, we have very powerful software that is able to run code, or instructions, that we write very quickly. Today, there are many different programming languages that are suited for many different types of jobs.
 
 - *Do you know any programming langues? Do you know what that language is used for?*
 
-Due to the fact that we write our code in English, we need a way to translate our human-readable code into something the machine can understand. So, the computer performs a process called <ins> **compilation**</ins> for us. This is when the computer takes our human code in a single programming language and converts it to machine code that can be understood by any computer. This is important because we humans can write many different types of instructions in many different languages, and the computer will translate them all into one universal language that all computers can understand.
+Due to the fact that we write our code in English, we need a way to translate our human-readable code into something the machine can understand. So, the computer performs a process called [compilation](#vocabulary) for us. This is when the computer takes our human code in a single programming language and converts it into machine code that can be understood by a computer. This is important because we humans can write many different types of instructions in many different languages, and the computer will translate them all into one universal language that all computers can understand.
 
 - *Can you guess why we have different programming langauges?* It's because some languages are more intricate and can be used to write more customized instructions, and other languages are simpler. There are many trade-offs, such as simpler languages but for faster compilation.
 
-After the code we write is translated into machine language, then comes the time to actually run a program the computer then <ins>**executes**</ins> the program. Execution is just a fancy way to say that the computer reads and performs the instructions of their translated, computer-language code. Overall the process is basically the same every time. You write the program, it is compiled into machine language, and then it is executed at your command.
+After the code we write is translated into machine language, then comes the time to actually run a program the computer then [executes](#vocabulary) the program. Execution is just a fancy way to say that the computer actually reads and performs the instructions of their translated, computer-language code. Overall the process is basically the same every time. You write the program, it's compiled into machine language, and then it is executed at your command.
 
 Luckily, we as humans are only responsible for the first section - the actual programming. Our computers will handle the compilation and execution steps.
 
  *Why don't you think that humans just learn machine code to cut down on the extra steps?*
 
-The coding language that we will be learning together is called <ins> **Python**</ins>. Python is a great first language to learn because it is very different from machine language, which makes it much easier for humans to understand, and it has many built in features that make teaching coding easy. It's <ins> **syntax**,</ins> or the formatting rules for witing programming, is very simplistic, which takes a lot of the pain out of writing code.
+The coding language that we will be learning together is called [compilation](#vocabulary). Python is a great first language to learn because it is very different from machine language, which makes it much easier for humans to understand, and it has many built in features that make teaching coding easy. It's <ins> **syntax**,</ins> or the formatting rules for witing programming, is very simplistic, which takes a lot of the pain out of writing code.
+
+One important thing to remember about Python is that in Python, spacing is very important! Most programs won't even run if you don't use the correct spacing. We'll cover this more in future but Python code should always have the correct spacing and indentations.
 
 Let's get a better grasp of programming and write our first program!
 
-> **Focus:** Go through each portion of the learning area very carefully. You want the student to be knowledgable about all the tools that they have so they are able to start coding by the end of the lesson.
+ - ***Focus:*** *Go through each portion of the learning area very carefully. You want the student to be knowledgable about all the tools that they have so they are able to start coding by the end of the lesson.*
 
- Let's take a look at our learning area. You'll see that we have four different panels to work with. First in the top left corner is a video panel so we can communicate. In the bottom left are notes for our lesson so we can stay on track. In the top right is a panel called the IDE, or integrated development environment. The name may sound long, but all it really is the space to do our first step of coding. Lastly, in the bottom right corner we have the terminal. This is where we give the computer the command to compile and execute all of our code.
+ Let's take a look at our learning area. You'll see that we have four different panels to work with. First in the top left corner is a video panel so we can communicate. In the bottom left are notes for our lesson so we can stay on track. In the top right is a panel called the IDE, or integrated development environment. The name may sound long, but all it really is the space to write our code, like another kind of notepad. Lastly, in the bottom right corner we have the terminal. This is where we give the computer the command to compile and execute all of our code.
 
-> **Tip:** Encourage the student to interact with all four panels before moving on. Have them write their name or an English direction into the IDE, and trace the pathway of code, compile, and execute.
+ - ***Tip:*** *Go through each portion of the learning area very carefully. You want the student to be knowledgable about all the tools that they have so they are able to start coding by the end of the lesson.*
 
- Let's start with our first coding excercise.
+ - ***Tip:*** *Have the student open up their own terminal/command prompt/shell. Let them know that they won't be able to run Python commands on their on terminal yet because they likely don't have Python installed.*
 
----
-### **Excercise 1: Hello World**
+ Now that we have learned some history about coding, let's start with our first coding excercise.
+
+### Excercise 1: Hello World
 ---
 
 After we do a little bit of reading during each lesson, we are going to practice with some excercises. Our very first excercise together is a time honored tradition called "Hello World."
@@ -72,7 +79,7 @@ To start, it's helpful to know that Python is a language where spacing matters. 
 
 The first feature of Python that you'll learn about to complete this challenge is the print statement.
 
-> **Tip:** Write "print()" in the IDE so the student is able to follow along. And clear it before the excercise is started.
+ - ***Tip:*** *Write "print()" in the IDE so the student is able to follow along. And clear it before the excercise is started. If you student begins the problem and does not include quotes let them know.*
 
 Now that we know about the print statement we are ready to try our excercise.
 
@@ -82,60 +89,104 @@ Now that we know about the print statement we are ready to try our excercise.
 ## Write your code here
 ```
 
-
 <summary> Solution</summary>
 
 ```python
 print('Hello World')
 ```
 
+Nice work. Print statements are very helpful to us programmers because we can use them to tell us when our coding isn't doing what we want it to. For example, imagine that we are writing a piece of software and we have a section of code that we only want to run on Tuesday. We could add a print statement in that section that says something like 
 
-Now that you have written your first program let's compile and run your program. Head down to the terminal now. To compile and run our Python program, we are going to write the following in our terminal:
+```python
+print('Hey happy Tuesday!')
+```
+
+that way if we ever see this message and it's not Tuesday then we easily know that we have a problem!
+
+We've written our first program together but right now it's just some commands to the computer. Let's get things going by compiling and executing our code like we learned about earlier.
+
+### Excercise 2: Compiling and executing
+---
+
+Head down to the terminal now. To compile and run our Python program, we are going to write the following in our terminal:
 
 ```python
 $ python3 file.py
 ```
-* Explain what each piece means before executing.
 
-Python3 tells the computer we are using Python to execute a program. The three at the end indicates that we are using the third released version of Python, which is the most current. This is kind of like the third version of an iPhone or a Macbook. The next piece file.py is the file that we want to execute. If we wanted to execute a program about tennis in a file called *tennis.py* then we would would use that file name instead. The last portion, the *.py* is called the <ins>**extension**</ins>. That tells the computer what kind of file we are executing like a *.txt* extension would correspond to a text file.
+Let cover what each of these pieces mean.
 
-## **Phase Three: Assessments**
+Python3 tells the computer we are using Python to execute a program. The three at the end indicates that we are using the third released version of Python, which is the most current. This is kind of like the third version of an iPhone or a Macbook. The next piece, file.py, is the file that we want to execute. If we wanted to execute a program about tennis in a file called *tennis.py* then we would would use that file name instead. The last portion, the *.py* is called the <ins>**extension**</ins>. That tells the computer what kind of file we are executing like a *.txt* extension would correspond to a text file.
+
+Now Python is a special language because it both compiles and executes this program for us when we run the above command. All of that power in just one command, pretty cool right?
+
+By pasting our first command into the terminal, in English we are basically saying "hey computer run my file called file.py with the third version of Python and give me the result."
+
+For all Treetop Lessons we will be using the same command to run our programs, so remember this one!
+
+## Phase Three: Assessments
+
+Now it's time for our assessments. Remember those objectives that we talked about in the beginning? We're now going to try some new challengs together that will test our understanding of those objectives.
+
+Now that we know about the print statement we are ready to try our excercise.
+
+- ***Tip:*** *In the asssessment section, let the student guide the conversation more. Remember, you want to be able to see how the student has grasped each of the objectives established at the beginning of the lesson.*
+
+
+### Assessment 1: What is coding?
+---
+
+Our first assessment will be more of a conversation rather than writing more code.
+
+- *Given that we've covered some of the basics of coding, I want to hear more from you. In your own words, what is coding?*
+
+### Assessment 2: Printing the path of code
+---
+
+
+Solution:
+```python
+# Using print statments, print the process of writing code, compliling # code and excuting to produce a result in three steps.
+# Note: the print('\n') statement just adds a line of space between your print statements so that when you execute your program the result is easier to read.
+
+## Enter code here
+print('\n')
+## Enter code here
+print('\n')
+## Enter code here
+```
+
+Solution:
+```python
+# sample answer, it is expected that students use their own words
+
+print('First a programmer writes human-readable code into their IDE')
+print('\n')
+print('Second the computer compiles that human-readable code into machine-readable that is understood by the computer')
+print('\n')
+print('Finally, the computer executes that machine-readable code and tells the human the result' )
+```
+
+### Recap
 
 Now, let's recap on what we learned.
 
-> **Recap:** Head back to the lesson objectives and ask your student about each one. Spend time answering their questions and giving them feedback. You want to make sure they understand these core components before ending the lesson.
+ - ***Recap:*** *Head back to the lesson objectives and ask your student about each one. Spend time answering their questions and giving them feedback. You want to make sure they understand these core components before ending the lesson.*
 
-> **Discuss:** Let the student take control and ask any questions about any of the content that you covered.
+  - ***Recap:*** *Let the student take control and ask any questions about any of the content that you covered.*
 
-Next week, we will learn about <ins> **variables**</ins>, which are a way to store information in our programs so that we can reference it later. We'll also learn more about strings, which are a type of variable that are composed of characters like "Hello World."
+### Next Lesson
 
+Next week, we will learn about [variables](#vocabulary), which are a way to store information in our programs so that we can reference it later on using a symbol. We'll also learn more about strings, which are a type of variable that are composed of characters like those in, "Hello World."
 
-```html indigo
-<template preview class="px-6 py-8">
-  <div class="max-w-md mx-auto overflow-hidden bg-white shadow-md rounded-xl md:max-w-2xl">
-    <div class="md:flex">
-      <div class="md:flex-shrink-0">
-        <img class="object-cover w-full h-48 md:w-48" src="https://images.unsplash.com/photo-1515711660811-48832a4c6f69?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=448&q=80" width="448" height="299" alt="Man looking at item at a store">
-      </div>
-      <div class="p-8">
-        <div class="text-sm font-semibold tracking-wide text-indigo-500 uppercase">Case study</div>
-        <a href="#" class="block mt-1 text-lg font-medium leading-tight text-black hover:underline">Finding customers for your new business</a>
-        <p class="mt-2 text-gray-500">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
-      </div>
-    </div>
-  </div>
-</template>
+### Vocabulary
 
-<div class="max-w-md mx-auto overflow-hidden bg-white shadow-md rounded-xl md:max-w-2xl">
-  <div class="md:flex">
-    <div class="md:flex-shrink-0">
-      <img class="object-cover w-full h-48 md:w-48" src="/img/store.jpg" alt="Man looking at item at a store">
-    </div>
-    <div class="p-8">
-      <div class="text-sm font-semibold tracking-wide text-indigo-500 uppercase">Case study</div>
-      <a href="#" class="block mt-1 text-lg font-medium leading-tight text-black hover:underline">Finding customers for your new business</a>
-      <p class="mt-2 text-gray-500">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
-    </div>
-  </div>
-</div>
-```
+The following section is intended as an index so students can double-check their knowledge and so instructors can offer further explanations. Like all of the Treetop Learning curriculum, this section is not meant to be rotely memorized.
+
+| Expression | Meaning |
+| --- | --- |
+| `coding` | `the process of giving instructions to a computer so that the computer can perform a specific task` |
+| `compilation` | `when the computer takes our human code in a single programming language and converts it into machine code that can be understood by a computer` |
+| `execution` | `the computer actually reads and performs the instructions of the machine code` |
+| `variables` | `a way to store information in our programs so we can reference it later on using a symbol` |
+

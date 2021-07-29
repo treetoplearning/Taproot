@@ -191,12 +191,12 @@ export function Header({ navIsOpen, onNavToggle }) {
         <div className="flex items-center justify-between flex-auto px-4 border-b border-gray-200 h-18 sm:px-6 lg:mx-6 lg:px-0 xl:mx-8">
           <Search />
           <div className="flex items-center justify-end flex-shrink-0 pl-8 space-x-6 lg:w-64">
-            <VersionSwitcher className="hidden lg:block" />
+            {/* <VersionSwitcher className="hidden lg:block" /> */}
             <a
-              href="https://github.com/tailwindlabs/tailwindcss"
+              href="https://github.com/treetoplearning/taproot/tree/master"
               className="text-gray-400 transition-colors duration-200 hover:text-gray-500"
             >
-              <span className="sr-only">Tailwind CSS on GitHub</span>
+              <span className="sr-only">Treetop Learning Docs on GitHub</span>
               <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
                 <path
                   fillRule="evenodd"

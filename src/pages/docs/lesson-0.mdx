@@ -1,22 +1,18 @@
 ---
 title: Lesson 0
 description: The structure and format of lessons
-features:
-  responsive: true
-  customizable: true
-  hover: false
-  focus: false
 ---
 import { CheckboxList } from '@/components/CheckboxList'
 
 ## Description
-
 
 This document is the template starter for all Treetop Lessons. Below, the structure, format, and syntactic conventions of a typical coding lesson will be covered. In addition, notes will be provided to you, the instructor, on how to best educate your student.
 
 ## Conventions
 
 Every lesson page will follow similar syntactic conventions on what to say to the student and how to foster more discussion.
+
+Throughout this page there will be examples of the various instructional elements in a lesson.
 
 ## Philosophy
 
@@ -25,7 +21,6 @@ All of the content of Treetop Learning lessons is backed by modern paedological 
 Treetop Learning lessons follow the [Backwards Design](https://www.modelteaching.com/education-articles/lesson-curriculum-planning/backwards-design-in-lesson-planning) standards for curriculum design, which is comprimised of three steps:
 
 <CheckboxList lines={["Step 1: Identify what students should know and be able to do by the end of the learning cycle.", "Step 2: Create an assessment to measure that learning.", "Step 3: Plan a sequence of lessons that will prepare students to successfully complete the assessment." ]}/> 
-
 
 These three steps were sourced from [Jennifer Gonzalez](https://www.cultofpedagogy.com/backward-design-basics/)[^1]. Ms. Gonzalez's analysis includes fantastic examples on why Backwards Design is so important for student growth. Feel free to read through to get a better understanding of why Treetop Learning employs Backwards Design throughout its instruction.
 
@@ -36,7 +31,6 @@ Above all, the Backwards Design philosophy prioritizes that instructors teach wi
 The introduction section will always include housekeeping information as well as basic topics to help make conversation with your student. This portion will always be addressed to the instructor and may often include points of emphasis for the lesson. Lesson 0 is addressed to the instructor because it is meant to be an instructional guide. Every other lesson will be addressed to the student to make it easier during the lesson.
 
 ## Phase One: Objectives
-
 
 For practice purposes, in this lesson the instructor will play the role of both the student and and the instructor. In the objectives phase, you will be provided with the focus questions, and often the the thematic focuses of the lesson. The learning objectives for this lesson spec are the following:
 
@@ -58,6 +52,8 @@ Woven in between the content will be challenge questions, and focus points for y
 
 - ***Focus:*** *Try to be personal with the student but don't talk down to them. Prompt them with questions like, "what do you think about that" or "how do you think this works?". Keep the discussion open-ended.*
 
+- ***Tip:*** *Sometimes challenge questions will include a sample answer with points of emphasis for student. Other times there will be no answer provided with the challenge question and thus the discussion between student and instructor will be more open-ended.*
+
 Let the activity be a conversation between you and your student. You want to be answering your student's questions and providing clarity as much as possible.
 
 - ***Tip:*** *Try to be personal with the student but don't talk down to them. Prompt them with questions like, "what do you think about that" or "how do you think this works?"*
@@ -70,7 +66,11 @@ There are several basic practice excercises. They are as follows:
 
 - ***Tip:*** *As the instructor you should copy and paste the boilerplate of each excercise into the shared IDE so that the student is able to follow along easily as you explain. Make sure to not delete older portions of the lesson that you are on as your progress.*
 
+
 ### Excercise 1: Complete the function
+
+Excercises will typically contain a short description beforehand.
+
 ---
 ```python
 # Complete the following function, which prints 'Hello World' when called
@@ -100,10 +100,8 @@ func double(input):
     return input * 2
 ```
 
-
 ### Excercise 3: Trace the code
 ---
-
 
 ```python
 # There is an error in the following function. Trace the code and report the error.
@@ -121,12 +119,18 @@ ZeroDivisionError: integer division or modulo by zero
 
 ## Phase Three: Assessments
 
-The final portion of each lesson will be the assessment. The methodology for assessing students' ability to be able to apply what they learned during the lesson will vary. Though, as an instructor you will be expected to go back to the critical questions of the lesson, to ensure students are able to apply their knowledge. 
+The final portion of each lesson will be the assessment. The methodology for assessing students' ability to be able to apply what they learned during the lesson will vary. Though, as an instructor you will be expected to go back to the critical questions of the lesson, to ensure students are able to apply their knowledge.
 
-- ***Tip:*** *Assessments will often span the material of multiple lesson and be given as benchmarks for student progress. Don't get too caught up if your student is struggling with a concept after the lesson has ended, as there will be extended practice and more exposure ahead.*
+Assessments will typically be more complex versions of excercises that are specfically targeted at measuring a student's proficiency in each of the lesson's objectives. Oftentimes an assessment can cover more than one objective. In these types of questions the instructor should especially encourage the student to take control of the conversation and explain their thought process.
 
+- ***Tip:*** *Assessments will often span the material of multiple lessons and be given as benchmarks for student progress. Don't get too caught up if your student is struggling with a concept after the lesson has ended, as there will be extended practice and more exposure ahead.*
 
 ### Assessment 1: Multiple of five
+
+- ***Tip:*** *In the asssessment section, let the student guide the conversation more. Remember, you want to be able to see how the student has grasped each of the objectives established at the beginning of the lesson.*
+
+Assessments will also include a short description beforehand.
+
 ---
 ```python
 # Complete the following function, which returns whether an input is a multiple of 5
@@ -141,22 +145,27 @@ return input % 5 == 0
 
 Additionally, the final portion of each lesson will often include a small portion of future lessons as an introduction.
 
+### Recap
+
+At the end of every lesson you should recap the material that was learned based on the lesson's established objectives. Remember, Treetop Learning's goal is not to cover a wide range of information but instead to teach for achievable and measureable goals within each lesson.
+
+ - ***Recap:*** *Head back to the lesson objectives and ask your student about each one. Spend time answering their questions and giving them feedback. You want to make sure they understand these core components before ending the lesson.*
+
+  - ***Recap:*** *Let the student take control and ask any questions about any of the content that you covered.*
 
 ### Next Lesson
 
 Next week we are going to start learning about the [Python](#vocabulary) coding language. We'll cover what coding is, how a program is run and some of the basic rules of Python.
 
-
 ### Vocabulary
 
 The following section is intended as an index so students can double-check their knowledge and so instructors can offer further explanations. Like all of the Treetop Learning curriculum, this section is not meant to be rotely memorized.
 
+- ***Note:*** *Vocabulary will sometimes reappear from week-to-week. Though when the student is expected to know the meaning of a word, the word will stop showing at the bottom of a lesson and instead will be found in the Treetop Learning glossary, where technical words will be listed in a specifically designed way for Treetop Learners. Though, not every technical word mentioned will be considered to be vocabulary.*
+
 | Expression | Meaning |
 | --- | --- |
-| `Python` | `The coding language that all Treetop Learning lesson will be taught in. Python is famously easy to read because of its spacing rules and is very powerful because of the many built-in features. Overall, Python is a very strong first programming language.` |
+| `Python` | `The coding language that all Treetop Learning lesson will be taught in. Python is famously easy to read because of its spacing rules and very powerful because its many built in features. Overall, Python is great first programming language.` |
 
 ### Footnotes    
 [^1]: ¹Ms. Gonzalez didn't theorize the Backwards Design process. That was done by Ralph Tyler (1949) and popularized by Grant Wiggins and Jay McTighe (1998). Still, Ms. Gonzalez's writings are a superb resource for understanding Backwards Design on a practical level.
-
-
-

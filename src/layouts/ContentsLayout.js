@@ -213,8 +213,9 @@ export function ContentsLayout({ children, meta, classes, tableOfContents }) {
           </div>
         )}
         <div className="mt-12 border-t border-gray-200 pt-6 text-right">
+          {/* TODO: Switch the branch from 'docs-page' to 'master' after merge */} 
           <Link
-            href={`https://github.com/tailwindlabs/tailwindcss.com/edit/master/src/pages${router.pathname}.mdx`}
+            href={`https://github.com/treetoplearning/taproot/blob/docs-page/src/pages${router.pathname}.mdx`}
           >
             <a className="mt-10 text-sm hover:text-gray-900">Edit this page on GitHub</a>
           </Link>
