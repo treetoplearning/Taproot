@@ -2,6 +2,7 @@
 title: Lesson 2
 description: Variables
 ---
+import { CheckboxList } from '@/components/CheckboxList'
 
 ## Description
 
@@ -11,26 +12,23 @@ The following lesson introduces the concepts of variables, data types, and basic
 
 After you welcome the student back, you should spend a few minutes discussing any new questions they may have about the content or curriculum, as well as if they had any concerns about any excercises they were working on at home.
 
-## **Phase One: Objectives**
+## Phase One: Objectives
 
-- [ ] The student understands what variables are and how to create them.
+For today's lesson we are going to learn are going to continue our discussion about some of the basic fundamentals of coding so that we can get better sense of what's to come in the next couple of weeks. Sound good? Our goals for this lesson are:
 
-- [ ] The student understands that variables are used to store data, and data types dictate the type of data stored in a variable.
+<CheckboxList lines={["The student understands what variables are and how to create them.", "The student understands that variables are used to store data, and data types dictate the type of data stored in a variable. Additionally, students understand that Python automatically assigns the type of variables for them. ", "The student is able to assign different values to a variable and is able run basic checks on value of a variable.", "The student understands that a string is a datatype. The students also understands that strings can be combined through a process called string concatentaion.", "The student understands that they can use variables to perform many operations. These operations include but are not limited to adding integers, concatenating strings, and checking whether a boolean is true."]}/> 
 
-- [ ] The student is able to assign different values to a variable and is able run basic checks on value of a variable.
+- ***Tip:*** *It's recomended that you check through each objective as needed to ensure all lesson goals are met.*
 
-- [ ] The student understands that a string is a datatype. The students also understands that strings can be combined through a process called "string concatentaion."
+## Phase Two: Excercises
+
+Last week we were introduced to what coding was, and the process that the code we write becomes instructions to be followed by the computer. This week we are going to dive even deeper and learn about some more tools that coders use write programs. You'll recall that last week we talked about [vocabulary](#vocabulary), which are a way to assign persistent values, so those values can be referenced later. Let's get right to some question so we can learn more.
+
+ - *Why do you think it might be useful to be able to reference an already-known computer value at different points while coding?* It saves us time from recomputing known values and makes our code shorter and simpler.
+
+  - ***Tip:*** *This lesson will contain lots of specific content. Make sure to be copying and pasting examples or explanations to the IDE so the student can follow along.*
+
   
-- [ ] The student understands that they can perform many operations on their variables. These operations include but are not limited to adding integers, concatenating strings, and checking whether a boolean is true.
-
-## **Phase Two: Activities**
-
-Last week we were introduced to what coding was, and the process that the code we write becomes instructions to be followed by the computer. This week we are going to dive even deeper and learn about some more tools that coders use write programs. You'll recall that last week we talked about **<ins>variables</ins>**, which are a way to assign persistent values, so those values can be referenced later. Let's get right into some excercises so we can learn more.
-
-- _Why do you think it might be useful to be able to reference an already-known computer value at different points while coding?_ It saves us time from recomputing known values and makes our code shorter and simpler.
-
-> **Tip:** This lesson will contain lots of specific content. Make sure to be copying and pasting examples or explanations to the IDE so the student can follow along.
-
 Creating variables in Python is as simple as taking a name and assigning it a value. In Python, we use an assignment operator to assign a variable a value. There are three simple steps to creating a variable, and we'll go through them together.
 
 ```python
@@ -39,7 +37,7 @@ Creating variables in Python is as simple as taking a name and assigning it a va
 age = 100
 ```
 
-As a quick side note, variables generally should always start with a letter of the alphabet or an underscore. Also, in Python, would use a casing called **<ins>snake-case</ins>** for variable names where things that we name in our code are only named with lowercase letters and underscores. A good way to remember to use underscores and lowercase in snake case is to think of a snake, small and low to the ground. I have a few examples for you here:
+As a quick side note, variables generally should always start with a letter of the alphabet or an underscore. Also, in Python, would use a casing called [snake_case](#vocabulary) for variable names where things that we name in our code are only named with lowercase letters and underscores. A good way to remember to use underscores and lowercase in snake case is to think of a snake, small and low to the ground. I have a few examples for you here:
 
 ```python
 # Examples of snake case
@@ -49,7 +47,251 @@ my_favorite_state = 'New York'
 is_a_cheerleader = True
 ```
 
-Now it's important to know that all variables aren't similar. Programmers have different types of variables, or data, to distinguish and group similar information. Different datatypes can do different things like integers for doing math, or strings for writing sentences. In Python there are many data types, but we are just going to focus on three. The first is an integer, or an *int*. Integers, are whole numbers that can be either positive or negative, and are used to perform computations and keep track of numerical values. Next, we have strings, or as they are commonly abbreviates *str*. Strings are sequences of individual characters strings, often referred to as characters, or chars. Strings can be words, or sentences, or unique characters on your keyboard. To make a string you just surround some words or symbosl with quotes or apostrophes, but I think apostrophes, also known as ticks, look the best. The final datatype that we are going to learn about is a boolean. Boolean variables are variables that either have a true or false value. Like *is_raining* or *has_icecream*. Booleans, or *bools*, typically start with a verb that expresses some condition. Between those three basic datatypes, we are going to have plenty of tools to do some pretty cool programming. But, before we get started with our excercise I have a couple questions for you.
+Now it's important to know that all variables aren't similar. Programmers have different types of variables, or data, to distinguish and group similar information. Different datatypes can do different things like integers for doing math, or strings for writing sentences. In Python there are many data types, but we are just going to focus on three. The first is an [integer](#vocabulary), or an *int*. Integers, are **whole numbers ** that can be either positive or negative, keep track of numerical values and perform computations. Next, we have the [string](#vocabulary) type, or as it is commonly abbreviated *str*. Strings are sequences of individual characters strings, often referred to as characters, or chars. Strings can be words, or sentences, or unique characters on your keyboard. To make a string you just surround some words or symbosl with quotes or apostrophes, but I think apostrophes, also known as ticks, look the best. The final datatype that we are going to learn about is a boolean. Boolean variables are variables that either have a true or false value. Like *is_raining* or *has_icecream*. Booleans, or *bools*, typically start with a verb that expresses some condition. Between those three basic datatypes, we are going to have plenty of tools to do some pretty cool programming. But, before we get started with our excercise I have a couple questions for you.
+
+- _First, why do you think we have different datatypes for our variables? Why don't we just have one datatype for everything?_ 
+ - *Why do you think it might be useful to be able to reference an already-known computer value at different points while coding?* When it comes time for the computer to execute our code instructions, the data type tells the computer how we are going to use that variable. If we are adding to variables, and they are integers, then we want to get a sum out of it. Also, datatypes help keep our code easy to read, and allow us to perform computations on our data that we will cover in just a second.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Most lessons will start off with an extended description that relates to the topics of the lessons. An example of a description is like below:
+
+- ***Tip:*** *In the Excercises section, it's often a good idea to pause often and after each paragraph to ask students if they have input or any questions of their own.*
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Today, we will utilize Strings and their assosciated methods to create our own version of Lorem Ipsum.
+
+Woven in between the content will be challenge questions, and focus points for you and your student. For example:
+
+- ***Focus:*** *Try to be personal with the student but don't talk down to them. Prompt them with questions like, "what do you think about that" or "how do you think this works?". Keep the discussion open-ended.*
+
+- ***Tip:*** *Sometimes challenge questions will include a sample answer with points of emphasis for student. Other times there will be no answer provided with the challenge question and thus the discussion between student and instructor will be more open-ended.*
+
+Let the activity be a conversation between you and your student. You want to be answering your student's questions and providing clarity as much as possible.
+
+- ***Tip:*** *Try to be personal with the student but don't talk down to them. Prompt them with questions like, "what do you think about that" or "how do you think this works?"*
+
+Now that you have instructed your student on what they are going to learn about, it is time to utilize Treetop software to get some practice.
+
+There are several basic practice excercises. They are as follows:
+
+- ***Tip:*** *It's most beneficial if the student works out the solution on their own before you provide the solution. Backwards Design principles only apply to the overall lesson goals, not to individual practice problems.*
+
+- ***Tip:*** *As the instructor you should copy and paste the boilerplate of each excercise into the shared IDE so that the student is able to follow along easily as you explain. Make sure to not delete older portions of the lesson that you are on as your progress.*
+
+
+### Excercise 1: Complete the function
+
+Excercises will typically contain a short description beforehand.
+
+---
+```python
+# Complete the following function, which prints 'Hello World' when called
+
+func hello_world():
+    ## Enter code here
+```
+
+Solution:
+```python
+print('Hello World')
+```
+
+### Excercise 2: Write the function
+---
+
+```python
+# Define a function that takes in a parameter input, doubles that parameter, 
+# and then returns the result
+
+## Enter code here
+```
+
+Solution:
+```python
+func double(input):
+    return input * 2
+```
+
+### Excercise 3: Trace the code
+---
+
+```python
+# There is an error in the following function. Trace the code and report the error.
+
+func divide(input):
+    return input / 0
+```
+
+Solution:
+```python
+ZeroDivisionError: integer division or modulo by zero
+```
+
+- ***Note:*** *All content in the excercises section is written from the perspective of the instructor to the student. This was done intentionally to make instruction easier. Instead of reciting the content of each lesson verbatim, feel free to take pauses and be open for any questions that your student might have.*
+
+## Phase Three: Assessments
+
+The final portion of each lesson will be the assessment. The methodology for assessing students' ability to be able to apply what they learned during the lesson will vary. Though, as an instructor you will be expected to go back to the critical questions of the lesson, to ensure students are able to apply their knowledge.
+
+Assessments will typically be more complex versions of excercises that are specfically targeted at measuring a student's proficiency in each of the lesson's objectives. Oftentimes an assessment can cover more than one objective. In these types of questions the instructor should especially encourage the student to take control of the conversation and explain their thought process.
+
+- ***Tip:*** *Assessments will often span the material of multiple lessons and be given as benchmarks for student progress. Don't get too caught up if your student is struggling with a concept after the lesson has ended, as there will be extended practice and more exposure ahead.*
+
+### Assessment 1: Multiple of five
+
+- ***Tip:*** *In the asssessment section, let the student guide the conversation more. Remember, you want to be able to see how the student has grasped each of the objectives established at the beginning of the lesson.*
+
+Assessments will also include a short description beforehand.
+
+---
+```python
+# Complete the following function, which returns whether an input is a multiple of 5
+
+func is_multiple_5(input):
+    ## Enter code here
+```
+
+```python
+return input % 5 == 0
+```
+
+Additionally, the final portion of each lesson will often include a small portion of future lessons as an introduction.
+
+### Recap
+
+At the end of every lesson you should recap the material that was learned based on the lesson's established objectives. Remember, Treetop Learning's goal is not to cover a wide range of information but instead to teach for achievable and measureable goals within each lesson.
+
+ - ***Recap:*** *Head back to the lesson objectives and ask your student about each one. Spend time answering their questions and giving them feedback. You want to make sure they understand these core components before ending the lesson.*
+
+  - ***Recap:*** *Let the student take control and ask any questions about any of the content that you covered.*
+
+### Next Lesson
+
+Next week we are going to start learning about the [Python](#vocabulary) coding language. We'll cover what coding is, how a program is run and some of the basic rules of Python.
+
+### Vocabulary
+
+The following section is intended as an index so students can double-check their knowledge and so instructors can offer further explanations. Like all of the Treetop Learning curriculum, this section is not meant to be rotely memorized.
+
+- ***Note:*** *Vocabulary will sometimes reappear from week-to-week. Though when the student is expected to know the meaning of a word, the word will stop showing at the bottom of a lesson and instead will be found in the Treetop Learning glossary, where technical words will be listed in a specifically designed way for Treetop Learners. Though, not every technical word mentioned will be considered to be vocabulary.*
+
+| Expression | Meaning |
+| --- | --- |
+| `variables` | `a way to store information in our programs so we can reference it later on using a symbol` |
+| `snake_case` | `the type of casing that is used for naming Python variables, which consists of all lowercase with an underscore seperating words` |
+| `integer` | `the type of casing that is used for naming Python variables, which consists of all lowercase with an underscore seperating words` |
+| `strings` | `a data type of are sequences of individual characters which can be words, sentences, or individual unique characters on your keyboard` |
+
+
+### Footnotes    
+[^1]: ¹Ms. Gonzalez didn't theorize the Backwards Design process. That was done by Ralph Tyler (1949) and popularized by Grant Wiggins and Jay McTighe (1998). Still, Ms. Gonzalez's writings are a superb resource for understanding Backwards Design on a practical level.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - _First, why do you think we have different datatypes for our variables? Why don't we just have one datatype for everything?_ When it comes time for the computer to execute our code instructions, the data type tells the computer how we are going to use that variable. If we are adding to variables, and they are integers, then we want to get a sum out of it. Also, datatypes help keep our code easy to read, and allow us to perform computations on our data that we will cover in just a second.
 
