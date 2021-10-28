@@ -150,7 +150,7 @@ function TopLevelNav() {
 
   return (
     <>
-      <TopLevelLink
+      {/* <TopLevelLink
         href="/docs"
         isActive={current === '' || current === 'docs'}
         color="pink"
@@ -173,8 +173,8 @@ function TopLevelNav() {
         }
       >
         Documentation
-      </TopLevelLink>
-      <TopLevelLink
+      </TopLevelLink> */}
+      {/* <TopLevelLink
         href="https://tailwindui.com/components?utm_source=tailwindcss&utm_medium=navigation"
         color="violet"
         className="mb-4"
@@ -187,8 +187,8 @@ function TopLevelNav() {
         }
       >
         Components
-      </TopLevelLink>
-      <TopLevelLink
+      </TopLevelLink> */}
+      {/* <TopLevelLink
         href="https://play.tailwindcss.com"
         color="amber"
         className="mb-4"
@@ -210,8 +210,8 @@ function TopLevelNav() {
         }
       >
         Playground
-      </TopLevelLink>
-      <TopLevelLink
+      </TopLevelLink> */}
+      {/* <TopLevelLink
         href="https://blog.tailwindcss.com"
         color="teal"
         className="mb-4"
@@ -230,8 +230,8 @@ function TopLevelNav() {
         }
       >
         News
-      </TopLevelLink>
-      <TopLevelLink
+      </TopLevelLink> */}
+      {/* <TopLevelLink
         href="/resources"
         isActive={current === 'resources'}
         color="blue"
@@ -249,8 +249,8 @@ function TopLevelNav() {
         }
       >
         Resources
-      </TopLevelLink>
-      <TopLevelLink
+      </TopLevelLink> */}
+      {/* <TopLevelLink
         href="https://www.youtube.com/tailwindlabs"
         color="purple"
         className="mb-10"
@@ -265,7 +265,7 @@ function TopLevelNav() {
         }
       >
         Screencasts
-      </TopLevelLink>
+      </TopLevelLink> */}
     </>
   )
 }

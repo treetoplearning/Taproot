@@ -196,7 +196,7 @@ export default function DocsLandingPage() {
           </div>
         </section>
       </div>
-      <section>
+      {/* <section>
         <h2 className="mt-16 mb-8 text-3xl font-extrabold tracking-tight text-gray-900">
           What’s new in Tailwind
         </h2>
@@ -217,8 +217,8 @@ export default function DocsLandingPage() {
             </li>
           ))}
         </ul>
-      </section>
-      <section>
+      </section> */}
+      {/* <section>
         <header className="flex items-center justify-between mt-16 mb-8">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">Latest Updates</h2>
           <a href="https://blog.tailwindcss.com" className="font-medium text-gray-900">
@@ -287,13 +287,13 @@ export default function DocsLandingPage() {
             </li>
           ))}
         </ul>
-      </section>
-      <section>
+      </section> */}
+      {/* <section>
         <h2 className="mt-16 mb-8 text-3xl font-extrabold tracking-tight text-gray-900">
           Get involved
         </h2>
         <Community />
-      </section>
+      </section> */}
     </div>
   )
 }
